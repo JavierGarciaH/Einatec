@@ -1,0 +1,24 @@
+{
+  "name": "einatec",
+  "version": "1.0.0",
+  "description": "Technical test",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest --runInBand",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JavierGarciaH/Einatec.git"
+  },
+  "author": "Javier Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JavierGarciaH/Einatec/issues"
+  },
+  "homepage": "https://github.com/JavierGarciaH/Einatec#readme",
+  "dependencies": {
+    "jest": "^29.4.3"
+  }
+}
