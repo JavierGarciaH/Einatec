@@ -1,3 +1,4 @@
+const chalk = require('chalk');
 const { commandsDto } = require('../utils/constants.js');
 const {
   setPlace,
@@ -38,7 +39,7 @@ class Controller {
   };
 
   printReport = (report) => {
-    console.log(report);
+    console.log(chalk.magenta(report));
   };
 
   setCommand = (data) => {

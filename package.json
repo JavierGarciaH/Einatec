@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Technical test",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "test": "jest --runInBand",
     "start": "node index.js"
@@ -19,6 +18,8 @@
   },
   "homepage": "https://github.com/JavierGarciaH/Einatec#readme",
   "dependencies": {
+    "chalk": "4.1.2",
+    "figlet": "^1.5.2",
     "jest": "^29.4.3"
   }
 }
